@@ -1,12 +1,17 @@
 site_name: Live Demo
 
+nav:
+  - Home: index.md
+  - Cheat: markdown-cheat-sheet.md
+  - Demo: live-demo.md
+
 theme:
   name: gds
 
  # show_govuk_logo: false
 
 
-  show_phase_banner: true
+  # show_phase_banner: true
   phase: omega
   # feedback_url: https://www.gov.uk/government/organisations/department-for-international-trade
 
