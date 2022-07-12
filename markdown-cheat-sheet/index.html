@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template app-html-class">
+
+<head>
+    <meta charset="utf-8">
+        <title>Markdown Cheat Sheet
+            - Live Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="blue">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="mask-icon" href="/images/govuk-mask-icon.svg" color="blue">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/govuk-apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/images/govuk-apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/govuk-apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" href="/images/govuk-apple-touch-icon.png">
+
+    <link href="../css/base.css" rel="stylesheet">
+
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <script src="../js/jquery-1.10.2.min.js" defer></script>
+    <script src="../js/bootstrap.min.js" defer></script>
+    <meta property="og:image" content="&lt;YOUR-DOMAIN&gt;/images/govuk-opengraph-image.png">
+</head>
+
+<body class="govuk-template__body app-body-class app-navbar__sticky govuk-header__sticky sticky-both
+">
+<script>
+    document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
+</script>
+
+<a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+<header class="govuk-header" role="banner"
+        data-module="govuk-header">
+    <div class="govuk-header__container app-width-container">
+
+        <div class="govuk-header__logo">
+            <a href=".." class="govuk-header__link govuk-header__link--homepage">
+                
+                <span class="govuk-header__logotype-text">
+              Live Demo
+            </span>
+                </span>
+            </a>
+        </div>
+
+        <div class="govuk-header__content">
+            
+            
+            
+                    <div class="search-wrapper">
+                        <div class="search-container">
+                            <input id="simpleSearchBox" type="search" class="govuk-input search-input"
+                                   placeholder="search (not working - wip!)"/>
+
+                            <div class="search-results-container">
+                                <div class="search-results" id="searchResults">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+</header>
+
+
+<div class="govuk-width-container app-width-container">
+        
+            <div class="govuk-phase-banner">
+                <p class="govuk-phase-banner__content">
+                    <strong class="govuk-tag govuk-phase-banner__content__tag">
+                        
+                            omega
+                        
+                    </strong>
+                    <span class="govuk-phase-banner__text">
+                        This is a new service – your <a class="govuk-link" href="">feedback</a> will help us to improve it.
+                    </span>
+                </p>
+            </div>
+        
+
+    <main class="govuk-main-wrapper app-main-class" id="main-content" role="main">
+            <div class="app-container">
+                <div class="app-body">
+                    
+
+<h1 id="markdown-cheat-sheet">Markdown Cheat Sheet</h1>
+<p>Thanks for visiting <a href="https://www.markdownguide.org">The Markdown Guide</a>!</p>
+<p>This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for <a href="https://www.markdownguide.org/basic-syntax">basic syntax</a> and <a href="https://www.markdownguide.org/extended-syntax">extended syntax</a>.</p>
+<h2 id="basic-syntax">Basic Syntax</h2>
+<p>These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.</p>
+<h3 id="heading">Heading</h3>
+<h1 id="h1">H1</h1>
+<h2 id="h2">H2</h2>
+<h3 id="h3">H3</h3>
+<h2 id="bold">Bold</h2>
+<p><strong>bold text</strong></p>
+<h2 id="italic">Italic</h2>
+<p><em>italicized text</em></p>
+<h2 id="blockquote">Blockquote</h2>
+<blockquote>
+<p>blockquote</p>
+</blockquote>
+<h2 id="ordered-list">Ordered List</h2>
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+<h2 id="unordered-list">Unordered List</h2>
+<ul>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ul>
+<h2 id="code">Code</h2>
+<p>this is <code>inline code</code></p>
+<h2 id="horizontal-rule">Horizontal Rule</h2>
+<hr />
+<h2 id="link">Link</h2>
+<p><a href="https://www.markdownguide.org">Markdown Guide</a></p>
+<h2 id="image">Image</h2>
+<p><img alt="alt text" src="https://www.markdownguide.org/assets/images/tux.png" /></p>
+<h2 id="extended-syntax">Extended Syntax</h2>
+<p>These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.</p>
+<h2 id="table">Table</h2>
+<table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Header</td>
+<td>Title</td>
+</tr>
+<tr>
+<td>Paragraph</td>
+<td>Text</td>
+</tr>
+</tbody>
+</table>
+<h2 id="fenced-code-block">Fenced Code Block</h2>
+<pre><code>{
+  &quot;firstName&quot;: &quot;John&quot;,
+  &quot;lastName&quot;: &quot;Smith&quot;,
+  &quot;age&quot;: 25
+}
+</code></pre>
+<h3 id="footnote">Footnote</h3>
+<p>Here's a sentence with a footnote. [^1]</p>
+<p>[^1]: This is the footnote.</p>
+<h3 id="heading-id">Heading ID</h3>
+<h3 id="my-great-heading-custom-id">My Great Heading {#custom-id}</h3>
+<h3 id="definition-list">Definition List</h3>
+<p><em>not supported in mkdocs</em></p>
+<p>term
+: definition</p>
+<h3 id="strikethrough">Strikethrough</h3>
+<p>~~The world is flat.~~</p>
+<h3 id="task-list">Task List</h3>
+<ul>
+<li>[x] Write the press release</li>
+<li>[ ] Update the website</li>
+<li>[ ] Contact the media</li>
+</ul>
+<h3 id="emoji">Emoji</h3>
+<p>That is so funny! :joy:</p>
+<p>(See also <a href="https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji">Copying and Pasting Emoji</a>)</p>
+<h3 id="highlight">Highlight</h3>
+<p>I need to highlight these ==very important words==.</p>
+<h3 id="subscript">Subscript</h3>
+<p>H~2~O</p>
+<h3 id="superscript">Superscript</h3>
+<p>X^2^</p>
+                </div>
+                <div class="app-navbar vertical-border-right ">
+                    
+                        <nav class="app-subnav">
+    
+    <ul class="app-subnav__section">
+            
+        <li class="app-subnav__section-item ">
+            
+                <a href=".."
+                   class="app-subnav__link govuk-link app-subnav__link-no-colour">
+                    🔥 GDS and mkdocs
+                </a>
+            
+            
+        </li>
+            
+        <li class="app-subnav__section-item ">
+            
+                <a href="../about/"
+                   class="app-subnav__link govuk-link app-subnav__link-no-colour">
+                    Vellet loqui veniat instabiles famulas dixerunt harena
+                </a>
+            
+            
+        </li>
+            
+        <li class="app-subnav__section-item ">
+            
+                <a href="../child-of-markdown/"
+                   class="app-subnav__link govuk-link app-subnav__link-no-colour">
+                    Child of markdown
+                </a>
+            
+            
+        </li>
+            
+        <li class="app-subnav__section-item ">
+            
+                <a href="../live-demo/"
+                   class="app-subnav__link govuk-link app-subnav__link-no-colour">
+                    Live Demo
+                </a>
+            
+            
+        </li>
+            
+        <li class="app-subnav__section-item app-subnav__section-item--current">
+            
+                <a href="./"
+                   class="app-subnav__link govuk-link app-subnav__link-no-colour">
+                    Markdown Cheat Sheet
+                </a>
+            
+            
+        </li>
+
+    </ul>
+</nav>
+                    
+                </div>
+                <div class="app-toc vertical-border-left">
+                    <nav class="app-subnav">
+    
+    <ul class="app-subnav__section">
+            
+            <li class="app-subnav__section-item" data-level="1"><a href="#markdown-cheat-sheet"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">Markdown Cheat Sheet</a>
+                
+                    <ul class="app-subnav__section app-subnav__section--nested">
+            <li class="app-subnav__section-item" data-level="2"><a href="#basic-syntax"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">Basic Syntax</a>
+                
+                    <ul class="app-subnav__section app-subnav__section--nested">
+                    </ul>
+                
+            </li>
+                    </ul>
+                
+            </li>
+            
+            <li class="app-subnav__section-item" data-level="1"><a href="#h1"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">H1</a>
+                
+                    <ul class="app-subnav__section app-subnav__section--nested">
+            <li class="app-subnav__section-item" data-level="2"><a href="#h2"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">H2</a>
+                
+                    <ul class="app-subnav__section app-subnav__section--nested">
+                    </ul>
+                
+            </li>
+            <li class="app-subnav__section-item" data-level="2"><a href="#bold"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">Bold</a>
+                
+            </li>
+            <li class="app-subnav__section-item" data-level="2"><a href="#italic"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">Italic</a>
+                
+            </li>
+            <li class="app-subnav__section-item" data-level="2"><a href="#blockquote"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">Blockquote</a>
+                
+            </li>
+            <li class="app-subnav__section-item" data-level="2"><a href="#ordered-list"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">Ordered List</a>
+                
+            </li>
+            <li class="app-subnav__section-item" data-level="2"><a href="#unordered-list"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">Unordered List</a>
+                
+            </li>
+            <li class="app-subnav__section-item" data-level="2"><a href="#code"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">Code</a>
+                
+            </li>
+            <li class="app-subnav__section-item" data-level="2"><a href="#horizontal-rule"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">Horizontal Rule</a>
+                
+            </li>
+            <li class="app-subnav__section-item" data-level="2"><a href="#link"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">Link</a>
+                
+            </li>
+            <li class="app-subnav__section-item" data-level="2"><a href="#image"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">Image</a>
+                
+            </li>
+            <li class="app-subnav__section-item" data-level="2"><a href="#extended-syntax"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">Extended Syntax</a>
+                
+            </li>
+            <li class="app-subnav__section-item" data-level="2"><a href="#table"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">Table</a>
+                
+            </li>
+            <li class="app-subnav__section-item" data-level="2"><a href="#fenced-code-block"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">Fenced Code Block</a>
+                
+                    <ul class="app-subnav__section app-subnav__section--nested">
+                    </ul>
+                
+            </li>
+                    </ul>
+                
+            </li>
+
+    </ul>
+</nav>
+
+                </div>
+            </div>
+
+    </main>
+</div>
+    <footer class="govuk-footer " role="contentinfo">
+        <div class="govuk-width-container ">
+            <div class="govuk-footer__meta">
+                <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+                    <svg aria-hidden="true" focusable="false" class="govuk-footer__licence-logo"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 483.2 195.7" height="17" width="41">
+                        <path fill="currentColor"
+                              d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"/>
+                    </svg>
+                    <span class="govuk-footer__licence-description">
+            All content is available under the
+            <a class="govuk-footer__link"
+               href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated
+          </span>
+                </div>
+                <div class="govuk-footer__meta-item">
+                    <a class="govuk-footer__link govuk-footer__copyright-logo"
+                       href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">©
+                        Crown copyright</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="../js/all.js"></script>
+<script>GOVUKFrontend.initAll();</script>
+
+<script>
+    const base_url = '..';
+</script>
+
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <script src="../js/search/simple-search.js"></script>
+    <script src="../js/search/search-bar.js"></script>
+    <script>
+        (function () {
+            const search = new SiteSearch();
+            const searchBox = document.getElementById("simpleSearchBox");
+            const searchResults = document.getElementById("searchResults");
+            const searchBar = new SearchBar(search, searchBox, searchResults);
+        })()
+    </script>
+
+
+</body>
+
+</html>

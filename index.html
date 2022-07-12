@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template app-html-class">
+
+<head>
+    <meta charset="utf-8">
+        <title>Live Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="blue">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="mask-icon" href="/images/govuk-mask-icon.svg" color="blue">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/govuk-apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/images/govuk-apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/govuk-apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" href="/images/govuk-apple-touch-icon.png">
+
+    <link href="css/base.css" rel="stylesheet">
+
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <script src="js/jquery-1.10.2.min.js" defer></script>
+    <script src="js/bootstrap.min.js" defer></script>
+    <meta property="og:image" content="&lt;YOUR-DOMAIN&gt;/images/govuk-opengraph-image.png">
+</head>
+
+<body class="govuk-template__body app-body-class app-navbar__sticky govuk-header__sticky sticky-both
+">
+<script>
+    document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
+</script>
+
+<a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+<header class="govuk-header" role="banner"
+        data-module="govuk-header">
+    <div class="govuk-header__container app-width-container">
+
+        <div class="govuk-header__logo">
+            <a href="." class="govuk-header__link govuk-header__link--homepage">
+                
+                <span class="govuk-header__logotype-text">
+              Live Demo
+            </span>
+                </span>
+            </a>
+        </div>
+
+        <div class="govuk-header__content">
+            
+            
+            
+                    <div class="search-wrapper">
+                        <div class="search-container">
+                            <input id="simpleSearchBox" type="search" class="govuk-input search-input"
+                                   placeholder="search (not working - wip!)"/>
+
+                            <div class="search-results-container">
+                                <div class="search-results" id="searchResults">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+</header>
+
+
+<div class="govuk-width-container app-width-container">
+        
+            <div class="govuk-phase-banner">
+                <p class="govuk-phase-banner__content">
+                    <strong class="govuk-tag govuk-phase-banner__content__tag">
+                        
+                            omega
+                        
+                    </strong>
+                    <span class="govuk-phase-banner__text">
+                        This is a new service – your <a class="govuk-link" href="">feedback</a> will help us to improve it.
+                    </span>
+                </p>
+            </div>
+        
+
+    <main class="govuk-main-wrapper app-main-class" id="main-content" role="main">
+            <div class="app-container">
+                <div class="app-body">
+                    
+
+<h1 id="gds-and-mkdocs">🔥 GDS and mkdocs</h1>
+<blockquote>
+<p>GOV.UK Design System Template for MKDocs for our Open Source projects, and deployed on GOV.UK PaaS</p>
+</blockquote>
+<h2 id="the-proposal">The proposal</h2>
+<p>We have a few projects in our <a href="https://github.com/uktrade/">GitHub organisation</a> that are/can be useful to the public in general.</p>
+<p>We can have information in their READMEs, which is "ok", but so far no consistent way of something a bit beefier. This project is to</p>
+<ol>
+<li>make a template mostly using the GOV.UK Design System for MKDocs</li>
+<li>use it for one of the open source projects (to make sure that the template is fit for purpose)</li>
+<li>make it deployable on GOV.UK PaaS (to make sure that it's deployable on regular/authorised infrastructure without too much trouble)</li>
+</ol>
+<p><a href="https://www.python-httpx.org/">HTTPX</a> to me seems like a good set of docs to be inspired by, as well as the docs for the design system itself https://design-system.service.gov.uk/</p>
+<p>Note that the design system docs themselves use elements not in the design system. Think we have to be free to do that.</p>
+<p><a href="https://github.com/alphagov/tech-docs-template">Note a Ruby version of this exists</a>, but I think there is value in an MKDocs/Python version.</p>
+<p>I suggest a very iterative approach</p>
+<ul>
+<li>get a shockingly basic template going, </li>
+<li>make documentation say with just 1 line of content, </li>
+<li>and deploy on PaaS (with just a cf push). So from day 1 (ish), we have aspects of all 1, 2 and 3, and we'll out very early on if there is something wrong with the plan and we'll need to change it.</li>
+</ul>
+<h2 id="the-benefits">The benefits</h2>
+<p>We'll have a constent way of documenting our open source projects, and this could also be used by Other Government Departments as well</p>
+<h2 id="the-skills-needed">The skills needed</h2>
+<p>1 developer with experience of HTML and CSS</p>
+<h2 id="the-amount-of-people-needed">The amount of people needed</h2>
+<p>1</p>
+<p><img alt="alt text" src="img/library-books.jpeg" /></p>
+                </div>
+                <div class="app-navbar vertical-border-right ">
+                    
+                        <nav class="app-subnav">
+    
+    <ul class="app-subnav__section">
+            
+        <li class="app-subnav__section-item app-subnav__section-item--current">
+            
+                <a href="."
+                   class="app-subnav__link govuk-link app-subnav__link-no-colour">
+                    🔥 GDS and mkdocs
+                </a>
+            
+            
+        </li>
+            
+        <li class="app-subnav__section-item ">
+            
+                <a href="about/"
+                   class="app-subnav__link govuk-link app-subnav__link-no-colour">
+                    Vellet loqui veniat instabiles famulas dixerunt harena
+                </a>
+            
+            
+        </li>
+            
+        <li class="app-subnav__section-item ">
+            
+                <a href="child-of-markdown/"
+                   class="app-subnav__link govuk-link app-subnav__link-no-colour">
+                    Child of markdown
+                </a>
+            
+            
+        </li>
+            
+        <li class="app-subnav__section-item ">
+            
+                <a href="live-demo/"
+                   class="app-subnav__link govuk-link app-subnav__link-no-colour">
+                    Live Demo
+                </a>
+            
+            
+        </li>
+            
+        <li class="app-subnav__section-item ">
+            
+                <a href="markdown-cheat-sheet/"
+                   class="app-subnav__link govuk-link app-subnav__link-no-colour">
+                    Markdown Cheat Sheet
+                </a>
+            
+            
+        </li>
+
+    </ul>
+</nav>
+                    
+                </div>
+                <div class="app-toc vertical-border-left">
+                    <nav class="app-subnav">
+    
+    <ul class="app-subnav__section">
+            
+            <li class="app-subnav__section-item" data-level="1"><a href="#gds-and-mkdocs"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">🔥 GDS and mkdocs</a>
+                
+                    <ul class="app-subnav__section app-subnav__section--nested">
+            <li class="app-subnav__section-item" data-level="2"><a href="#the-proposal"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">The proposal</a>
+                
+            </li>
+            <li class="app-subnav__section-item" data-level="2"><a href="#the-benefits"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">The benefits</a>
+                
+            </li>
+            <li class="app-subnav__section-item" data-level="2"><a href="#the-skills-needed"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">The skills needed</a>
+                
+            </li>
+            <li class="app-subnav__section-item" data-level="2"><a href="#the-amount-of-people-needed"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">The amount of people needed</a>
+                
+            </li>
+                    </ul>
+                
+            </li>
+
+    </ul>
+</nav>
+
+                </div>
+            </div>
+
+    </main>
+</div>
+    <footer class="govuk-footer " role="contentinfo">
+        <div class="govuk-width-container ">
+            <div class="govuk-footer__meta">
+                <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+                    <svg aria-hidden="true" focusable="false" class="govuk-footer__licence-logo"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 483.2 195.7" height="17" width="41">
+                        <path fill="currentColor"
+                              d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"/>
+                    </svg>
+                    <span class="govuk-footer__licence-description">
+            All content is available under the
+            <a class="govuk-footer__link"
+               href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated
+          </span>
+                </div>
+                <div class="govuk-footer__meta-item">
+                    <a class="govuk-footer__link govuk-footer__copyright-logo"
+                       href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">©
+                        Crown copyright</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="js/all.js"></script>
+<script>GOVUKFrontend.initAll();</script>
+
+<script>
+    const base_url = '.';
+</script>
+
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <script src="js/search/simple-search.js"></script>
+    <script src="js/search/search-bar.js"></script>
+    <script>
+        (function () {
+            const search = new SiteSearch();
+            const searchBox = document.getElementById("simpleSearchBox");
+            const searchResults = document.getElementById("searchResults");
+            const searchBar = new SearchBar(search, searchBox, searchResults);
+        })()
+    </script>
+
+
+</body>
+
+</html>
