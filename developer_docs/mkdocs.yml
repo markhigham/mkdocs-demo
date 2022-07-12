@@ -1,0 +1,14 @@
+site_name: Live Demo
+
+theme:
+  name: gds
+
+ # show_govuk_logo: false
+
+
+  show_phase_banner: true
+  phase: omega
+  # feedback_url: https://www.gov.uk/government/organisations/department-for-international-trade
+
+  sticky_header_desktop: true
+  sticky_side_nav_desktop: true  
