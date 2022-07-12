@@ -1,0 +1,17 @@
+site_name: Live demo!!!
+
+nav:
+  - Home: index.md
+  - Lorem: about.md
+  - Markdown: markdown-cheat-sheet.md
+
+theme:
+  name: gds
+  show_govuk_logo: true
+  show_phase_banner: true
+  phase: omega
+
+  sticky_header_desktop: true
+  sticky_side_nav_desktop: true
+
+
